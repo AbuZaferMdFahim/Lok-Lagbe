@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Lok Lagbe</string>
+    <string name="Any">By clicking Save, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="message">Are You Sure Want to Select him?</string>
+    <string name="message3">Are You Sure Want to Reject him?</string>
+    <string name="message1">Please Select The Money Below</string>
+    <string name="Title">Title</string>
+    <string name="Title1">Accept Request</string>
+    <string name="Title3">Reject Request</string>
+    <string name="Title4">Work Status</string>
+    <string name="Title2">Rating</string>
+    <string name="message2">Are You Sure??</string>
+    <string name="message4">Work Done or Not?</string>
+
+    <string-array name="Work_Status">
+        <item>Choose Work Status...</item>
+        <item>Completed</item>
+        <item>Did not Show Up</item>
+    </string-array>
+
+    <string name="hey">About Lok Lagbe</string>
+
+    <string name="hey1">Lok Lagbe is an online-based service platform that offers home services in Bangladesh. We ensure quality service by providing training to our technicians which also emphasis safety and behavioral aspects. Apart from the domiciliary service, we also provide a one-time, periodical subscription for corporate houses. Our highly trained and professional technicians are always a CALL away to provide Electrical Services, Plumbing Services, Air Conditioner Services, CCTV Services, IT Services, Generator Services. servicing works at your doorstep. Contact us to request a service through our Lok Lagbe webpage. We are also open to provide our services during holidays/emergency hours / your free hours
+
+        Lo Lagbe subsidiaries, have had a significant impact on society shaping the future for the 21st century and beyond. The strive for brighter future SSG introduces Mistri Mama</string>
+
+    <string name="hey2">Purpose of Our Service</string>
+    <string name="hey3">Technician is a common word in the service industry. But when it comes to an experienced service technician, it is really hard to find. There is no measurement policy to rate them, until you receive the service, experience them. Also, there is a huge question in security measures or the trustworthiness of unknown technicians. Should you let them in your perfect house, or not? To ease up this huge responsibility from your back to find a suitable and experienced service technician, we are here. Mistri Mama is just one call away to make your troubled living perfect.</string>
+
+    <string name="hey4">Our Objective</string>
+    <string name="hey5">“Providing quality services with the best customer experience through developing and empowering the local skilled workforce.”
+
+        All too often, consumers are forced to deal with appliance repair companies who send rude, inconsiderate, and just plain messy technicians to their homes. But not with Mistri Mama. We know just how awful of an experience that is, and we are committed to being different. That is why you can be confident knowing that when you hire our team, you will be working with technicians who are experts, trustworthy but also who are polite and respectful. Not only do they respect you and your time, but they also respect your home. All of our technicians abide by our commitment to leave no trace behind. In fact, it is our goal to always leave your home in better shape than it was when we arrived. Other than your fixed appliances, you shouldn’t even notice we were there at all!.</string>
+
+    <string name="hey6">What Do We Do</string>
+    <string name="hey7">We are providing quality services with the best customer experience through developing and empowering the local skilled workforce. Currently, we are offering a variety of services udder six (6) major services. They are;
+
+Air Conditioner Services
+Electrical Services
+Plumbing Services
+IT Services
+CCTV Services
+Generator Services
+        When a service is required, the user can visit the Lok Lagbe Application, call us on call center number or knock us on social media pages to get the service. Lok Lagbe respect your time more than anything. In fact, we promise we will always show up on time for your scheduled appointment and that we will deliver service that is fast, efficient, and detail-oriented. To take it a step further, the experts who arrive at your door will be wearing clean attire and will have an ID badge on them</string>
+
+    <string name="hey8">Why Choose Us</string>
+    <string name="hey9">Why else should you work with Lok Lagbe technicians instead of regular technicians? Because we care. We care about your time, your privacy, your appliances. Lok Lagbe knows how much you rely on those machines every day to keep your home in working order, and we are committed to helping you get your house running smoothly again. However, we also know that who you hire to come to fix your appliances is equally important. That is why we are so proud to have expert technicians on our team. We provide fast, efficient services that pay attention to the details and get your appliances to prime condition.
+
+We provide our services at your desired time. Which means any convenient time that the user demands. Holiday, late-night, even on emergency hours. Our service partners are committed to providing the service at your selected hour. With these services, we offer accurate and valid service charges to our customers. Individual service charges and service detail is given on the website, which clears out all the confusion of what you will get at what price. It reduces all the hustle of price negotiations.
+
+You can expect the following from our qualified experts;
+
+They will be polite and respectful.
+They will show up on time.
+They will be clean and in uniform.
+They will leave no trace behind.
+They are confident and that is why we guarantee all our services.</string>
+
+
+</resources>

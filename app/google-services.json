@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985439058348",
+    "project_id": "lok-lagbe",
+    "storage_bucket": "lok-lagbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985439058348:android:efd74fa53359b538302209",
+        "android_client_info": {
+          "package_name": "com.example.lok_lagbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985439058348-0ohvl6khg8u5h7bvb6o7e3m6mge16vp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX-B05chaIBtp_cHwAig88-8vzdGrouKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985439058348-0ohvl6khg8u5h7bvb6o7e3m6mge16vp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

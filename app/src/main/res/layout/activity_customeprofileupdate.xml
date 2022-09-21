@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BE1FDFA9"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".CustomerProfileUpdate">
+
+
+
+
+        <EditText
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FullName"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:id="@+id/firstName10Id">
+        </EditText>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/MobileNumber10Id">
+        </EditText>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/db10Id">
+        </EditText>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="GENDER"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/lingo10Id">
+        </EditText>
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Change Data"
+            android:textSize="20sp"
+            android:id="@+id/changeDataId"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal">
+        </Button>
+
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Date Of Birth"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/purple_200"-->
+<!--        android:id="@+id/birth1id">-->
+<!--    </TextView>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="10dp">-->
+
+<!--        <Spinner-->
+
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/day1Id"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:autofillHints="Enter Country"-->
+<!--            android:gravity="center">-->
+<!--        </Spinner>-->
+<!--        <Spinner-->
+
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/Month1Id"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:autofillHints="Enter Country"-->
+<!--            android:gravity="center">-->
+<!--        </Spinner>-->
+<!--        <Spinner-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/Year1Id"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:autofillHints="Enter Country"-->
+<!--            android:gravity="center">-->
+<!--        </Spinner>-->
+<!--    </LinearLayout>-->
+<!--    <TextView-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Gender"-->
+<!--        android:textColor="@color/purple_200"-->
+<!--        android:textStyle="bold"-->
+<!--        android:id="@+id/gender1id">-->
+<!--    </TextView>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="10dp">-->
+
+<!--        <RadioGroup-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/radioGroup1Id"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layoutDirection="rtl">-->
+
+<!--            <RadioButton-->
+
+<!--                android:id="@+id/Other1Id"-->
+<!--                android:layout_width="90dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="20sp"-->
+<!--                android:text="Other"-->
+<!--                android:textColor="@color/black">-->
+<!--            </RadioButton>-->
+<!--            <RadioButton-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:id="@+id/male1Id"-->
+<!--                android:layout_width="90dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:text="Male">-->
+<!--            </RadioButton>-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/Female1Id"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="50dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:text="Female"-->
+<!--                android:textSize="20sp">-->
+
+<!--            </RadioButton>-->
+<!--        </RadioGroup>-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/Any">-->
+<!--    </TextView>-->

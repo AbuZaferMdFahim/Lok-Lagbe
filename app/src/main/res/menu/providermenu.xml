@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/k10id"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24">
+        </item>
+
+        <item
+            android:id="@+id/providersProfileId"
+            android:title="Profile"
+            android:icon="@drawable/ic_baseline_person_24">
+        </item>
+
+        <item
+            android:id="@+id/providersMenuHistoryId"
+            android:title="History"
+            android:icon="@drawable/ic_baseline_chat_24">
+        </item>
+
+        <item
+            android:id="@+id/providersMenuRatingId"
+            android:title="Rating"
+            android:icon="@drawable/ic_baseline_chat_24">
+        </item>
+
+    </group>
+
+    <item android:title="Others" >
+
+        <menu>
+            <item
+                android:id="@+id/providersAboutUsId"
+                android:title="About us"
+                android:icon="@drawable/ic_baseline_person_24">
+            </item>
+
+            <item
+                android:id="@+id/providersContactId"
+                android:title="Contact us"
+                android:icon="@drawable/ic_baseline_chat_24">
+            </item>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/providersSignoutId"
+        android:title="Sign out"
+        android:icon="@drawable/ic_baseline_login_24">
+    </item>
+</menu>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerId"
+        android:background="@color/white"
+        tools:openDrawer="start"
+        tools:context=".CustomerHome">
+
+
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+    <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:id="@+id/liLa1Id">
+
+                <ImageView
+
+                    android:id="@+id/imageView1ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/router"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textView1ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:text="Router Problem"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:id="@+id/liLa4Id">
+
+                <ImageView
+                    android:id="@+id/imageView4ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/acrepair"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textView4ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="Ac Repair"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:id="@+id/liLa7Id">
+
+                <ImageView
+                    android:id="@+id/imageView7ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/electricservice"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textView7ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="Electric Service"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:id="@+id/liLa2Id">
+
+                <ImageView
+
+                    android:id="@+id/imageView2ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fan"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textView2ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:text="Fan And Other Services"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:id="@+id/liLa5Id">
+
+                <ImageView
+                    android:id="@+id/imageView5ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/geyser"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textView5ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="Electric geyser"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/liLa8Id"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView8ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/plumbing"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textView8ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="Plumbing Services"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/liLa3Id"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="100dp"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/imageView3ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drilling" />
+
+                <TextView
+                    android:id="@+id/textView3ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Drilling Service"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/liLa6Id"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView6ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/washingmachine" />
+
+                <TextView
+                    android:id="@+id/textView6ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Washing Machine"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/liLa9Id"
+                android:layout_width="120dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView9ID"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/washbasin" />
+
+                <TextView
+                    android:id="@+id/textView9ID"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Wash Basin Service"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+<!--        <Button-->
+<!--            android:id="@+id/customerHistoryId"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="History"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="20sp">-->
+<!--        </Button>-->
+        <Button
+            android:id="@+id/customerRequestId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address : "
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/adressId"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/customermenu"
+        android:id="@+id/navId"
+        app:itemBackground="@android:color/background_light"
+        app:headerLayout="@layout/customerheader"
+        android:layout_gravity="start">
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#391EE5BD"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".CustomerEmailSignin">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        android:textSize="50sp">
+
+    </ImageView>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailId"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Enter Your Mail"
+        android:textColorHint="#090B0A"
+        android:textColor="#090B0A"
+        android:padding="10dp">
+    </EditText>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordId"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:textColorHint="#090B0A"
+        android:textColor="#090B0A"
+        android:padding="10dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonId"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20sp"
+        android:text="Continue">
+    </Button>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/progressId">
+        </ProgressBar>
+</LinearLayout>

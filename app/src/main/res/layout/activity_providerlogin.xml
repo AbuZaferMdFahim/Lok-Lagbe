@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E81E60E5"
+    android:orientation="vertical"
+
+    tools:context=".ProviderLogin">
+
+    <LinearLayout
+        android:id="@+id/li1d"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+
+            android:id="@+id/P1Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="50dp"
+            android:hint="Enter Your Phone Number"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#090B0A"
+            android:textColorHint="#090B0A">
+
+        </EditText>
+
+        <Button
+
+            android:id="@+id/Login1id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Sign in"
+            android:textColor="@color/cardview_dark_background"
+            android:background="@color/teal_200"
+            android:textSize="20sp">
+
+        </Button>
+
+        <TextView
+
+            android:id="@+id/notRegistered1Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Are You not Registered? Sign Up"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#C3171515">
+
+        </TextView>
+
+<!--        <LinearLayout-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="10dp">-->
+
+            <Button
+
+                android:id="@+id/loginWithEmail1ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/cardview_dark_background"
+                android:background="@color/teal_200"
+                android:text="Login with Email"
+                android:textSize="15sp">
+
+            </Button>
+
+<!--            <Button-->
+
+<!--                android:id="@+id/loginWithFacebook1ID"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:padding="10dp"-->
+<!--                android:textColor="@color/cardview_dark_background"-->
+<!--                android:background="@color/teal_200"-->
+<!--                android:text="Login with Facbook"-->
+<!--                android:textSize="10sp">-->
+
+<!--            </Button>-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/l1i2d"
+        android:layout_width="match_parent"
+        android:layout_height="710dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"
+            android:textSize="50sp">
+
+        </ImageView>
+
+        <EditText
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signInEmail1Id"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:hint="Enter Your Mail"
+            android:textColorHint="#090B0A"
+            android:textColor="#090B0A"
+            android:padding="10dp">
+        </EditText>
+
+        <EditText
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signInPassword1Id"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:hint="Password"
+            android:inputType="textWebPassword"
+            android:textColorHint="#090B0A"
+            android:textColor="#090B0A"
+            android:padding="10dp">
+
+        </EditText>
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signInLogin1Id"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textSize="20sp"
+            android:textColor="@color/cardview_dark_background"
+            android:background="@color/teal_200"
+            android:text="Continue">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

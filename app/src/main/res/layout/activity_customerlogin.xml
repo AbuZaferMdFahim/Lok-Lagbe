@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#391EE5BD"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".CustomerLogin">
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/loginLaytoutID"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:visibility="visible">-->
+
+
+    <LinearLayout
+        android:id="@+id/lid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/PId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="50dp"
+            android:hint="Enter Your Phone Number"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#090B0A"
+            android:textColorHint="#090B0A"></EditText>
+
+        <Button
+            android:id="@+id/LoginId"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textSize="20sp"></Button>
+
+        <TextView
+            android:id="@+id/notRegisteredId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Are You not Registered? Sign Up"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#C3171515"></TextView>
+        <!--    </LinearLayout>-->
+        <!--    <LinearLayout-->
+        <!--        android:id="@+id/otpLaytoutID"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent"-->
+        <!--        android:orientation="vertical"-->
+        <!--        android:visibility="gone"-->
+        <!--        android:gravity="center">-->
+
+        <!--    <EditText-->
+        <!--        android:layout_marginTop="10dp"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:id="@+id/Otp1Id"-->
+        <!--        android:visibility="gone"-->
+        <!--        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"-->
+        <!--        android:hint="Enter 6 Digit Otp"-->
+        <!--        android:inputType="number"-->
+        <!--        android:textColorHint="#ffffff"-->
+        <!--        android:textColor="#ffffff"-->
+        <!--        android:padding="10dp">-->
+        <!--    </EditText>-->
+        <!--    <Button-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:id="@+id/Verify1Id"-->
+        <!--        android:visibility="gone"-->
+        <!--        android:layout_marginTop="10dp"-->
+        <!--        style="@style/Widget.AppCompat.Button.Colored"-->
+        <!--        android:textSize="20sp"-->
+        <!--        android:text="Verify">-->
+        <!--    </Button>-->
+        <!--    </LinearLayout>-->
+        <!--    <ProgressBar-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:visibility="gone"-->
+        <!--        android:layout_marginTop="10dp"-->
+        <!--        android:id="@+id/progress4Id">-->
+
+        <!--    </ProgressBar>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="10dp">-->
+
+            <Button
+                android:id="@+id/loginWithEmailID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Login with Email"
+                android:textSize="15sp"></Button>
+
+<!--            <Button-->
+<!--                android:id="@+id/loginWithFacebookID"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:padding="10dp"-->
+<!--                android:text="Login with Facbook"-->
+<!--                android:textSize="10sp"></Button>-->
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l1id"
+        android:layout_width="match_parent"
+        android:layout_height="710dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        android:textSize="50sp">
+
+    </ImageView>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInEmailId"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Enter Your Mail"
+        android:textColorHint="#090B0A"
+        android:textColor="#090B0A"
+        android:padding="10dp">
+    </EditText>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInPasswordId"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:textColorHint="#090B0A"
+        android:textColor="#090B0A"
+        android:padding="10dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInLoginId"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20sp"
+        android:text="Continue">
+    </Button>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

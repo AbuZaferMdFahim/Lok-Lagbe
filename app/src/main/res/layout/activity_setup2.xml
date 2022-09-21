@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".ProviderSetupProfile2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Upload Your Nid Picture(Landscape)"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#EF6C00"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginTop="70dp">
+
+    </TextView>
+
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:id="@+id/NidPid"
+        android:src="@drawable/nid"
+        android:background="#9E9D24">
+
+    </ImageView>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Continue"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="#00695C"
+        android:id="@+id/nidpictureID">
+
+    </Button>
+</LinearLayout>
+
+

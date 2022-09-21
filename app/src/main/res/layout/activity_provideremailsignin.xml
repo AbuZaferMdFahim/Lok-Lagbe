@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF00695C"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ProviderEmailSignin">
+
+    <ImageView
+
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        android:textSize="50sp">
+
+    </ImageView>
+
+    <EditText
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email2Id"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Enter Your Mail"
+        android:textColorHint="@color/white"
+        android:textColor="#090B0A"
+        android:padding="10dp">
+
+    </EditText>
+
+    <EditText
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password2Id"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:textColorHint="@color/white"
+        android:textColor="#090B0A"
+        android:padding="10dp">
+
+    </EditText>
+
+    <Button
+
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2Id"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="@color/design_default_color_secondary"
+        android:background="#81880E78"
+        android:textSize="20sp"
+        android:text="Continue">
+
+    </Button>
+
+    <ProgressBar
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:id="@+id/progressId">
+
+    </ProgressBar>
+</LinearLayout>

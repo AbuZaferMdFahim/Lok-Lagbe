@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerRequest">
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provider Name  : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#00838F">
+        </TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/providerNameAshbeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222222">
+
+        </TextView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provider Phone : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#00838F">
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/providerPhoneAshbeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#222222">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provider Address : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#00838F">
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/providerThikanaAshbeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#222222">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provider Job : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#00838F">
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/providerJobAshbeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#222222">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charge : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#00838F">
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/providerChargeAshbeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#222222">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#00838F">
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/providerRequestAshbeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#222222">
+
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/stId"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#00838F">
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/providerStatusAshbeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#222222">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/st1Id"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:id="@+id/statusdiboId"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Status"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="#00A9C628"
+            android:textColor="#00838F">
+        </Button>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You Change Status After Your Need is Completed or Not. "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#C62828">
+        </TextView>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

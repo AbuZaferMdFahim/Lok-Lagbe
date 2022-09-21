@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A691FDF"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ProviderSetupProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/luid"
+        android:visibility="visible">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:id="@+id/firstNameId">
+        </EditText>
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/lastNameId">
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/EmailId">
+    </EditText>
+
+
+    <TextView
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Date Of Birth"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:id="@+id/birthid">
+    </TextView>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Jan 01 2021"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/datePickerId"
+        android:onClick="openDatePicker">
+    </Button>
+
+
+
+    <TextView
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:id="@+id/genderid">
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroupId"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+
+            <RadioButton
+
+                android:id="@+id/OtherId"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Other"
+                android:textColor="@color/black">
+            </RadioButton>
+            <RadioButton
+                android:layout_marginRight="20dp"
+                android:id="@+id/maleId"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Male">
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/FemaleId"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:text="Female"
+                android:textSize="20sp">
+            </RadioButton>
+        </RadioGroup>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Any">
+    </TextView>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:background="@color/teal_200"
+        android:text="Continue"
+        android:textSize="20sp"
+        android:id="@+id/saveDataId"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+
+    </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/lu1id"
+        android:visibility="gone">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Select Your Job">
+    </TextView>
+    <Spinner
+        android:layout_marginRight="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/JobId"
+        android:textColor="@color/black"
+        android:autofillHints="Enter Job"
+        android:gravity="center">
+    </Spinner>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Permanent Adress"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/ThikanaId"
+        android:hint="Enter Adress"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Father's Name"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/fatherId"
+        android:hint="Enter Father's Name"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Charge You Want"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/ChargeId"
+            android:inputType="number"
+            android:hint="Enter Your Charge"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Phone Number"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:id="@+id/mobId"
+        android:hint="Enter Phone Number"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Nid No"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:id="@+id/NidNoId"
+        android:hint="Enter Your Nid Number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#C62828"
+        android:text="Nid No Must be same Your Nid Picture's Nid no "/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextId"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:background="@color/black">
+    </Button>
+    </LinearLayout>
+</LinearLayout>
